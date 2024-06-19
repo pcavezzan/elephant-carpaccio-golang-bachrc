@@ -23,7 +23,7 @@ But final :
 - Lister les articles d'un Etat
 
 ## Attendu
-./elephant state
+./elephant states
 
 ["UTAH"]
  

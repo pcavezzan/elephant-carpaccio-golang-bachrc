@@ -1,8 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"log"
+
+	"github.com/bachrc/test-stonal/cmd"
+)
+
 
 func main() {
-	bonjour := Hello()
-	fmt.Println(bonjour)
+	if err := cmd.Execute(); err != nil {
+		log.Fatal(err)
+	}
 }
